@@ -23,4 +23,27 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+} 
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.container, .contain-1, .contain-2, .contain-3, .contain-4 {
+  display: flex
+}
+
+.container {
+  justify-content: space-evenly;
+}
+
+.contain-1, .contain-2, .contain-3, .contain-4 {
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
 }
